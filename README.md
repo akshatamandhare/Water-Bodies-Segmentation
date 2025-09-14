@@ -127,12 +127,7 @@ Upload an image → adjust threshold/visualization → view results → download
 
 ## 👩‍💻 Author
 
-- **Your Name**  
-📧 Email: your.email@example.com  
-🔗 [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)  
+- **Akshata Mandhare**  
+📧 Email: akshatamandhare03@gmail.com
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License** – feel free to use, modify, and share with attribution.  
