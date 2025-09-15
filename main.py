@@ -54,15 +54,6 @@ threshold = st.slider("Adjust Sensitivity/Threshold", min_value=0, max_value=255
 visualization_mode = st.selectbox("Choose Visualization Mode", ["Blue Mask", "Transparent Overlay", "Boundary Outline"])
 
 if uploaded_file is not None:
-    image = Image.open(uploaded_file).convert("RGB")
-    
-    # Optional: limit huge images to 4000x4000 to avoid memory issues
-    MAX_SIZE = 4000
-    if max(image.size) > MAX_SIZE:
-        image.thumbnail((MAX_SIZE, MAX_SIZE))
-    
-    img_array = np.array(image)
-
     # Read image
     image = Image.open(uploaded_file).convert("RGB")
     img_array = np.array(image)
@@ -120,9 +111,7 @@ if uploaded_file is not None:
     with col2:
         st.pyplot(fig1, clear_figure=True)
 
-    # from PIL import Image
-    Image.MAX_IMAGE_PIXELS = None  # Disable the limit
-
+    
 
     # ------------------- DOWNLOAD OPTIONS -------------------
     st.header("⬇️ Download Results")
