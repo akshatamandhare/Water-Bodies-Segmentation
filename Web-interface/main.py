@@ -9,7 +9,6 @@ from io import BytesIO
 import cv2
 import pandas as pd
 
-
 # ------------------- PAGE CONFIG -------------------
 st.set_page_config(page_title="Water Bodies Segmentation 🌊", layout="wide")
 
