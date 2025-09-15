@@ -6,4 +6,3 @@ seaborn
 tqdm
 opencv-python
 Pillow
-google-colab
