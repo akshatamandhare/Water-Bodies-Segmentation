@@ -1,8 +1,10 @@
+streamlit
 torch
 torchvision
 scikit-learn
 matplotlib
 seaborn
 tqdm
-opencv-python
+opencv-python-headless
 Pillow
+libgl1
