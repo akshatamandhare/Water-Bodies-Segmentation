@@ -111,6 +111,9 @@ if uploaded_file is not None:
     with col2:
         st.pyplot(fig1, clear_figure=True)
 
+    # from PIL import Image
+    Image.MAX_IMAGE_PIXELS = None  # Disable the limit
+
 
     # ------------------- DOWNLOAD OPTIONS -------------------
     st.header("⬇️ Download Results")
