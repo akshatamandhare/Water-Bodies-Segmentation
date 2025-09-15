@@ -206,7 +206,7 @@ class ViTSegmentation(nn.Module):
 @st.cache_resource
 def load_model():
     model = ViTSegmentation(img_size=IMG_SIZE, patch_size=PATCH_SIZE).to(DEVICE)
-    model.load_state_dict(torch.load("web-interface\vit_waterbody.pth", map_location=DEVICE)
+    model.load_state_dict(torch.load("vit_waterbody.pth", map_location=DEVICE)
 )
     model.eval()
     return model
