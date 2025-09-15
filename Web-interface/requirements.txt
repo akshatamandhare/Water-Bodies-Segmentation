@@ -7,4 +7,4 @@ seaborn
 tqdm
 opencv-python-headless
 Pillow
-libgl1
+
