@@ -7,3 +7,8 @@ seaborn
 tqdm
 opencv-python-headless
 Pillow
+streamlit
+opencv-python-headless
+Pillow
+plotly
+numpy
